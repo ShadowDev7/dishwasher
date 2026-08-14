@@ -11,6 +11,6 @@ $ git clone https://github.com/basilisezkid23/dishwasher
 Then Install pygame:
 
 ```bash
-$ pip3 install 
+$ pip3 install pygame 
 ```
 
