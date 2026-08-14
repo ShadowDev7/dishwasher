@@ -1,4 +1,4 @@
-A dishwasher project idk
+A dishwasher project 
 
 # Installation
 
