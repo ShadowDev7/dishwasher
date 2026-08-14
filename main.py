@@ -63,7 +63,7 @@ class AudioEngine:
     def load_sounds(self):
         BASE_DIR = Path(__file__).resolve().parent
         ASSETS_DIR = BASE_DIR / "assets"
-
+        # Finally figured it out
         sound_files: list[str] = [
             "relay1.wav",
             "relay2.wav",
