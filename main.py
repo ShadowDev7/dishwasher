@@ -19,7 +19,6 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 import pygame
 from pathlib import Path
 import sys
-import os
 import math
 import random
 
@@ -81,7 +80,7 @@ class AudioEngine:
             self.sounds[filename] = pygame.mixer.Sound(str(path))
 
     def play_fx(self, name):
-        self.ch_fx.play(self.sounds[name])
+        self.ch_fx(self.sounds[name])
         return self.sounds[name].get_length() * 1000
 
     def start_loops(self):
